@@ -1,0 +1,6 @@
+{
+  "name": "Eternal Realms",
+  "description": "An immersive 2D top-down MMORPG with rich procedural biomes, 15 tactical classes, deep itemization, crafting, mining, runic upgrades, pet training, world events, and a full trophy system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
