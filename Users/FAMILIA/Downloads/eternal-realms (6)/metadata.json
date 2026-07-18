@@ -1,0 +1,8 @@
+{
+  "name": "Eternal Realms",
+  "description": "An immersive 2D multiplayer-inspired retro RPG / MMO with class selections, crafting, companion pets, and dangerous dungeons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
