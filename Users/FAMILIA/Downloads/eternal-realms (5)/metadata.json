@@ -1,0 +1,6 @@
+{
+  "name": "Eternal Realms",
+  "description": "Rucoy-inspired RPG simulator where you explore islands, fight monsters, and level up your skills.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

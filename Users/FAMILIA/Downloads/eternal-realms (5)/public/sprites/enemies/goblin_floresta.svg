@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <radialGradient id="enemyGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f855a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#2f855a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowEffect">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <circle cx="50" cy="50" r="45" fill="url(#enemyGlow)" />
+  
+  <g filter="url(#glowEffect)">
+    <!-- Base monster shape -->
+    <path d="M35 65 L50 35 L65 65 Z" fill="#22543d"/><circle cx="50" cy="35" r="12" fill="#2f855a"/><path d="M34 30 L42 34 L38 38 Z" fill="#2f855a"/><path d="M66 30 L58 34 L62 38 Z" fill="#2f855a"/><circle cx="46" cy="35" r="2" fill="#e53e3e"/><circle cx="54" cy="35" r="2" fill="#e53e3e"/>
+  </g>
+</svg>
